@@ -129,9 +129,8 @@ h6 {
     float: right;
     text-align: center;
     position: absolute;
-    margin-right: 160px;
+    right: 500px;
     top: 50px;
-    right: 250px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
