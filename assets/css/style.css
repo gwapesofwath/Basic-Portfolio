@@ -1,17 +1,21 @@
 
+/*css for index page*/
+
 header {
     background-color: #4aaaa5;
     text-align: center;
     width: 150px;
-    height: 32px;
+    height: 20px;
     margin: 20px;
+    margin-left: 95px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 10px;
-    padding: 16px;
-    position: relative
-
+    padding: 14px;
+    position: relative;
+    line-height: 0px;
 }
+
 
 #navBar {
     float: right;
@@ -21,13 +25,13 @@ header {
     right: 250px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-stretch: semi-expanded;
-
+    word-spacing: 12px;
+    line-height: 1px;
 }
 
 .mainContent {
-    background: grey;
     position: relative;
     margin-bottom: 20px;
     padding: 20px;
@@ -35,6 +39,8 @@ header {
     height: 450px;
     bottom: 20px;
 }
+
+
 
 h2 {
     text-align: left;
@@ -44,6 +50,7 @@ h2 {
     left: 20px;
     top: 16px;
     padding-bottom: 20px;
+    font-size: 24px;
 }
 
 #aboutMe {
@@ -79,4 +86,102 @@ p {
     padding-top: 10px;
 }
 
+/*css for portfolio page*/
 
+#portfolio {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    height: 1250px;
+    width: 750px;
+    bottom: 20px;
+    margin-left: 350px;
+}
+
+#table {
+ resize: both; 
+ width: 600px; 
+ height: 75%;
+ background-color: white;
+ margin-left: 70px;
+ line-height: 10px;
+}
+
+#table img {
+    width: 90%;
+    height: auto;
+}
+
+h6 {
+    background-color: #4aaaa5;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    top: 170px;
+    margin-right: 4%;
+    margin-left: 7%;
+}
+
+#navBar2 {
+    float: right;
+    text-align: center;
+    position: absolute;
+    margin-right: 160px;
+    top: 50px;
+    right: 250px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-stretch: semi-expanded;
+    word-spacing: 12px;
+    line-height: 1px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    margin: 20px;
+    margin-left: 440px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 10px;
+    padding: 14px;
+    position: relative;
+    line-height: 0px;
+}
+
+.hr {
+    display: block;
+    width: 0px;
+    color: grey;
+    background-color: grey;
+    height: 2px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    font-size: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
