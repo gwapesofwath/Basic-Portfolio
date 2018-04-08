@@ -156,7 +156,7 @@ h6 {
 
 .hr {
     display: block;
-    width: 0px;
+    width: 0 auto;
     color: grey;
     background-color: grey;
     height: 2px;
